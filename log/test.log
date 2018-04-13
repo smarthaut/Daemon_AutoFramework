@@ -398,3 +398,10 @@
 2018-04-13 11:35:05,890 - SearchPage - INFO - Had find the element    successful by id via value: su 
 2018-04-13 11:35:06,142 - SearchPage - DEBUG - 点击"立即登录 "按钮.
 2018-04-13 11:35:06,197 - SearchPage - INFO - Had take screenshot and save to folder : /screenshots
+2018-04-13 13:06:55,597 - SearchPage - DEBUG - 找到搜索Input.
+2018-04-13 13:06:56,223 - SearchPage - INFO - Had find the element    successful by id via value: kw 
+2018-04-13 13:06:56,699 - SearchPage - INFO - Had type  自动化测试  in inputBox
+2018-04-13 13:06:56,701 - SearchPage - DEBUG - 找到百度一下Input.
+2018-04-13 13:06:57,324 - SearchPage - INFO - Had find the element    successful by id via value: su 
+2018-04-13 13:06:57,863 - SearchPage - DEBUG - 点击"立即登录 "按钮.
+2018-04-13 13:06:58,828 - SearchPage - INFO - Had take screenshot and save to folder : /screenshots

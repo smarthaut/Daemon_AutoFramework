@@ -15,6 +15,7 @@ LOG_PATH = os.path.join(BASE_PATH, 'log')
 PIR_PATH = os.path.join(BASE_PATH,'report','screenpicture\\')
 DATA_PATH = os.path.join(BASE_PATH,'data','baidu.xlsx')
 DRIVER_PATH = os.path.join(BASE_PATH,'drivers')
+MONGOD_PATH = os.path.join(BASE_PATH,'config','db_config.ini')
 
 class Config:
     def __init__(self,config=CONFIG_FILE):

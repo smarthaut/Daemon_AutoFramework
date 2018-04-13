@@ -8,3 +8,9 @@ log:
     console_level: DEBUG
     file_level: DEBUG
     pattern: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+
+mongodb:
+    host: 39.106.144.46
+    port: 27017
+    user:
+    password:
