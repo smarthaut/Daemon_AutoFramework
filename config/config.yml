@@ -1,0 +1,10 @@
+URL: http://10.50.4.115:8080/paasadv/
+USER: root
+PASSWORD: 123
+BaiDuURl: https://www.baidu.com/
+log:
+    file_name: test.log
+    backup: 5INFO
+    console_level: DEBUG
+    file_level: DEBUG
+    pattern: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'

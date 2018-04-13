@@ -1,0 +1,102 @@
+1523510447127	geckodriver	INFO	geckodriver 0.18.0
+1523510447135	geckodriver	INFO	Listening on 127.0.0.1:50406
+1523510449201	geckodriver::marionette	INFO	Starting browser D:\firefox55\firefox.exe with args ["-marionette"]
+1523510450318	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox55/omni.ja!/components/addonManager.js:65
+1523510451113	Marionette	INFO	Enabled via --marionette
+[GPU 11740] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1523510455595	Marionette	INFO	Listening on port 50412
+1523510455664	Marionette	INFO	Listening on port 50412
+1523510456574	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523510456643	Marionette	DEBUG	loaded listener.js
+1523510456699	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1523510456952	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1523510456952	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://10.50.4.115:8080/paasadv/js/common.js, line 281: unreachable code after return statement
+1523510457402	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.50.4.115:8080/paasadv/"
+1523510457414	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.50.4.115:8080/paasadv/"
+1523510457986	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1523510458203	Marionette	INFO	New connections will no longer be accepted
+1523524158987	geckodriver	INFO	geckodriver 0.18.0
+1523524159016	geckodriver	INFO	Listening on 127.0.0.1:55933
+1523524160912	geckodriver::marionette	INFO	Starting browser D:\firefox55\firefox.exe with args ["-marionette"]
+1523524161827	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox55/omni.ja!/components/addonManager.js:65
+1523524162839	Marionette	INFO	Enabled via --marionette
+[GPU 18904] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1523524166400	Marionette	INFO	Listening on port 55939
+1523524166413	Marionette	INFO	Listening on port 55939
+1523524166728	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523524166783	Marionette	DEBUG	loaded listener.js
+1523524166832	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1523524166907	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1523524166907	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1523524167324	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1523524167396	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+[GPU 18904] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 18904] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19372] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19372] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 18904] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+m:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox55/omni.ja!/components/addonManager.js:65
+1523524171391	Marionette	INFO	Enabled via --marionette
+[GPU 20456] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20076] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1523524184884	Marionette	INFO	Listening on port 55982
+1523524185055	Marionette	INFO	Listening on port 55982
+1523524185323	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523524187364	Marionette	DEBUG	loaded listener.js
+1523524187420	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1523524187547	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1523524187548	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1523524188186	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1523524188369	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=se&json=1&p=3&sid=1424_25809_21087_22160&req=2&csor=2&pwd=s&cb=jQuery1102097761785179075_1523524188058&_=1523524188061, line 1: TypeError: jQuery1102097761785179075_1523524188058 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=s&json=1&p=3&sid=1424_25809_21087_22160&req=2&csor=1&cb=jQuery1102097761785179075_1523524188058&_=1523524188060, line 1: TypeError: jQuery1102097761785179075_1523524188058 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sel&json=1&p=3&sid=1424_25809_21087_22160&req=2&csor=3&pwd=se&cb=jQuery1102097761785179075_1523524188058&_=1523524188062, line 1: TypeError: jQuery1102097761785179075_1523524188058 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sele&json=1&p=3&sid=1424_25809_21087_22160&req=2&csor=4&pwd=sel&cb=jQuery1102097761785179075_1523524188058&_=1523524188063, line 1: TypeError: jQuery1102097761785179075_1523524188058 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selen&json=1&p=3&sid=1424_25809_21087_22160&req=2&csor=5&pwd=sele&cb=jQuery1102097761785179075_1523524188058&_=1523524188064, line 1: TypeError: jQuery1102097761785179075_1523524188058 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=seleni&json=1&p=3&sid=1424_25809_21087_22160&req=2&csor=6&pwd=selen&cb=jQuery1102097761785179075_1523524188058&_=1523524188065, line 1: TypeError: jQuery1102097761785179075_1523524188058 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=seleniu&json=1&p=3&sid=1424_25809_21087_22160&req=2&csor=7&pwd=seleni&cb=jQuery1102097761785179075_1523524188058&_=1523524188066, line 1: TypeError: jQuery1102097761785179075_1523524188058 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selenium%20%E7%81%B0%E8%93%9D&json=1&p=3&sid=1424_25809_21087_22160&req=2&csor=11&pwd=selenium%20%E7%81%B0&cb=jQuery1102097761785179075_1523524188058&_=1523524188070, line 1: TypeError: jQuery1102097761785179075_1523524188058 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selenium%20%E7%81%B0&json=1&p=3&sid=1424_25809_21087_22160&req=2&csor=10&pwd=selenium%20&cb=jQuery1102097761785179075_1523524188058&_=1523524188069, line 1: TypeError: jQuery1102097761785179075_1523524188058 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selenium&json=1&p=3&sid=1424_25809_21087_22160&req=2&csor=8&pwd=seleniu&cb=jQuery1102097761785179075_1523524188058&_=1523524188067, line 1: TypeError: jQuery1102097761785179075_1523524188058 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selenium%20&json=1&p=3&sid=1424_25809_21087_22160&req=2&csor=9&pwd=selenium&cb=jQuery1102097761785179075_1523524188058&_=1523524188068, line 1: TypeError: jQuery1102097761785179075_1523524188058 is not a function
+1523524189590	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1523524191750	Marionette	INFO	New connections will no longer be accepted
+1523524192525	geckodriver	INFO	geckodriver 0.18.0
+1523524192537	geckodriver	INFO	Listening on 127.0.0.1:56061
+1523524194677	geckodriver::marionette	INFO	Starting browser D:\firefox55\firefox.exe with args ["-marionette"]
+1523524197232	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox55/omni.ja!/components/addonManager.js:65
+1523524198151	Marionette	INFO	Enabled via --marionette
+[Child 13640] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1523524205506	Marionette	INFO	Listening on port 56067
+1523524205514	Marionette	INFO	Listening on port 56067
+1523524206247	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523524209449	Marionette	DEBUG	loaded listener.js
+1523524209554	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1523524209639	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1523524209640	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1523524209956	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1523524210040	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=P&json=1&p=3&sid=1461_21117_18559_20930&req=2&csor=1&cb=jQuery110205569721155852609_1523524209801&_=1523524209803, line 1: TypeError: jQuery110205569721155852609_1523524209801 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Pyth&json=1&p=3&sid=1461_21117_18559_20930&req=2&csor=4&pwd=Pyt&cb=jQuery110205569721155852609_1523524209801&_=1523524209806, line 1: TypeError: jQuery110205569721155852609_1523524209801 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Pytho&json=1&p=3&sid=1461_21117_18559_20930&req=2&csor=5&pwd=Pyth&cb=jQuery110205569721155852609_1523524209801&_=1523524209807, line 1: TypeError: jQuery110205569721155852609_1523524209801 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Pyt&json=1&p=3&sid=1461_21117_18559_20930&req=2&csor=3&pwd=Py&cb=jQuery110205569721155852609_1523524209801&_=1523524209805, line 1: TypeError: jQuery110205569721155852609_1523524209801 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Python&json=1&p=3&sid=1461_21117_18559_20930&req=2&csor=6&pwd=Pytho&cb=jQuery110205569721155852609_1523524209801&_=1523524209808, line 1: TypeError: jQuery110205569721155852609_1523524209801 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Py&json=1&p=3&sid=1461_21117_18559_20930&req=2&csor=2&pwd=P&cb=jQuery110205569721155852609_1523524209801&_=1523524209804, line 1: TypeError: jQuery110205569721155852609_1523524209801 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Python%20&json=1&p=3&sid=1461_21117_18559_20930&req=2&csor=7&pwd=Python&cb=jQuery110205569721155852609_1523524209801&_=1523524209809, line 1: TypeError: jQuery110205569721155852609_1523524209801 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Python%20s&json=1&p=3&sid=1461_21117_18559_20930&req=2&csor=8&pwd=Python%20&cb=jQuery110205569721155852609_1523524209801&_=1523524209810, line 1: TypeError: jQuery110205569721155852609_1523524209801 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Python%20se&json=1&p=3&sid=1461_21117_18559_20930&req=2&csor=9&pwd=Python%20s&cb=jQuery110205569721155852609_1523524209801&_=1523524209811, line 1: TypeError: jQuery110205569721155852609_1523524209801 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Python%20sel&json=1&p=3&sid=1461_21117_18559_20930&req=2&csor=10&pwd=Python%20se&cb=jQuery110205569721155852609_1523524209801&_=1523524209812, line 1: TypeError: jQuery110205569721155852609_1523524209801 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Python%20sele&json=1&p=3&sid=1461_21117_18559_20930&req=2&csor=11&pwd=Python%20sel&cb=jQuery110205569721155852609_1523524209801&_=1523524209813, line 1: TypeError: jQuery110205569721155852609_1523524209801 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Python%20selen&json=1&p=3&sid=1461_21117_18559_20930&req=2&csor=12&pwd=Python%20sele&cb=jQuery110205569721155852609_1523524209801&_=1523524209814, line 1: TypeError: jQuery110205569721155852609_1523524209801 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Python%20seleni&json=1&p=3&sid=1461_21117_18559_20930&req=2&csor=13&pwd=Python%20selen&cb=jQuery110205569721155852609_1523524209801&_=1523524209815, line 1: TypeError: jQuery110205569721155852609_1523524209801 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Python%20seleniu&json=1&p=3&sid=1461_21117_18559_20930&req=2&csor=14&pwd=Python%20seleni&cb=jQuery110205569721155852609_1523524209801&_=1523524209816, line 1: TypeError: jQuery110205569721155852609_1523524209801 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Python%20selenium&json=1&p=3&sid=1461_21117_18559_20930&req=2&csor=15&pwd=Python%20seleniu&cb=jQuery110205569721155852609_1523524209801&_=1523524209817, line 1: TypeError: jQuery110205569721155852609_1523524209801 is not a function
+1523524210689	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1523524212783	Marionette	INFO	New connections will no longer be accepted
