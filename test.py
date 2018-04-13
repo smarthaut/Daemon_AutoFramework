@@ -47,6 +47,12 @@ logger.warning('logger warning message')
 logger.error('logger error message')
 logger.critical('logger critical message')'''
 
-do = 'D:/python/Test_framework/report/screenpicture/20180412140429.png'
-a = do.find('screenpicture')
-print(a)
+'''from src.utils.file_reader import ExcelReader
+from src.utils.config import DATA_PATH
+
+dates = ExcelReader(DATA_PATH).data
+for date in dates:
+    print(date)
+
+print(dates[1]['search'])'''
+TYPES = {'firefox': webdriver.Firefox, 'chrome': webdriver.Chrome, 'ie': webdriver.Ie, 'phantomjs': webdriver.PhantomJS}

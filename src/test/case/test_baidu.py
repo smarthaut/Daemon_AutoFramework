@@ -13,11 +13,14 @@ from src.utils.config import Config
 from src.utils.file_reader import ExcelReader
 from src.utils.config import DATA_PATH
 
+excel = DATA_PATH
+dates = ExcelReader(DATA_PATH).data
+
 class SearchTest(unittest.TestCase):
-    excel = DATA_PATH
+
 
     def setUp(self):
-        self.driver =Browser(timeout=60)
+        self.driver =Browser().get_browserdriver()
         self.search_page = SearchPage(self.driver)
         self.search_page.url = Config().get('BaiDuURl')
         self.search_page.visit()
@@ -26,7 +29,7 @@ class SearchTest(unittest.TestCase):
         self.driver.quit()
 
     def test_search(self):
-        self.search_page.set_value(element=self.search_page.rec_search_input(), text='huanghe')
+        self.search_page.set_value(element=self.search_page.rec_search_input(), text=dates[1]['search'])
         self.search_page.click_search_btn()
         self.search_page.get_windows_img()
 

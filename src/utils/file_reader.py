@@ -49,6 +49,7 @@ class ExcelReader:
     可以指定sheet，通过index或者name：
     ExcelReader(excel, sheet=2)
     ExcelReader(excel, sheet='BaiDuTest')
+    可用于做接口自动化
     """
     def __init__(self, excel, sheet=0, title_line=True):
         if os.path.exists(excel):

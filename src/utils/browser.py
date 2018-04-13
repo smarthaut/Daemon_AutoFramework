@@ -6,24 +6,45 @@
 # @File    : browser.py
 # @Software: PyCharm
 import os
-from selenium.webdriver.ie.webdriver import WebDriver as IeWebDriver
-from selenium.webdriver.firefox.webdriver import WebDriver as FirefoxWebDriver
-from selenium.webdriver.chrome.webdriver import WebDriver as ChromeWebDriver
+from selenium import webdriver
+from src.utils.config import DRIVER_PATH
 
-_DRIVERS = {
-    'ie': [IeWebDriver, 'IEDriverServer.exe'],
-    'firefox': [FirefoxWebDriver],
-    # 'remote': RemoteWebDriver,
-    'chrome': [ChromeWebDriver, 'chromedriver.exe'],
-    # 'phantomjs': PhantomJSWebDriver,
-}
+CHROMEDRIVER_PATH = DRIVER_PATH + '\chromedriver.exe'
+IEDRIVER_PATH = DRIVER_PATH + '\IEDriverServer.exe'
+PHANTOMJSDRIVER_PATH = DRIVER_PATH + '\phantomjs.exe'
+
+TYPES = {'firefox': webdriver.Firefox, 'chrome': webdriver.Chrome, 'ie': webdriver.Ie, 'phantomjs': webdriver.PhantomJS}
+EXECUTABLE_PATH = {'firefox': 'geckodriver', 'chrome': CHROMEDRIVER_PATH, 'ie': IEDRIVER_PATH, 'phantomjs': PHANTOMJSDRIVER_PATH}
 
 
-def Browser(driver_name='firefox', *args, **kwargs):
-    driver = _DRIVERS[driver_name]
-    if driver_name != 'firefox':
-        CURRENT_DIR = os.path.dirname(__file__)
-        executable_path = os.path.abspath(os.path.join(CURRENT_DIR , r'drivers', driver[1]))
-        return driver[0](executable_path=executable_path, *args, **kwargs)
-    return driver[0](*args, **kwargs)
+class Browser(object):
+    def __init__(self, browser_type='firefox'):
+        self._type = browser_type.lower()
+        if self._type in TYPES:
+            self.browser = TYPES[self._type]
+        else:
+            raise UnSupportBrowserTypeError('仅支持%s!' % ', '.join(TYPES.keys()))
+        self.driver = None
+
+    def get_browserdriver(self,*args,**kwargs):
+        self.driver = self.browser(executable_path=EXECUTABLE_PATH[self._type],*args,**kwargs)
+        return self.driver
+
+
+    def close(self):
+        self.driver.close()
+
+    def quit(self):
+        self.driver.quit()
+
+
+class UnSupportBrowserTypeError(Exception):
+    pass
+
+
+if __name__ == '__main__':
+    driver = Browser().get_browserdriver()
+    driver.get('http://www.baidu.com')
+    elem = driver.find_element_by_id('kw')
+    print(elem.text)
 

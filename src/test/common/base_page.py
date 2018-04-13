@@ -47,7 +47,7 @@ class Basepage(object):
 
     # 保存图片
     def get_windows_img(self):
-        file_path = r'D:/python/Test_framework/report/screenpicture/'
+        file_path = r'D:/python/Daemon_/report/screenpicture/'
         rq = time.strftime('%Y%m%d%H%M%S', time.localtime(time.time()))
         screen_name = file_path + rq + '.png'
         try:
@@ -55,7 +55,7 @@ class Basepage(object):
             self.logger.info("Had take screenshot and save to folder : /screenshots")
             print(screen_name)
         except NameError as e:
-            self.logger.error("Failed to take screenshot! %s" % e)
+            self.logger.error("Failed to take screenpicture! %s" % e)
             self.get_windows_img()
 
     # 定位元素方法
@@ -70,7 +70,7 @@ class Basepage(object):
         if selector_by == "i" or selector_by == 'id':
             try:
                 element = self.driver.find_element_by_id(selector_value)
-                self.logger.info("Had find the element \' %s \' successful "
+                self.logger.info("Had find the element  %s  successful "
                             "by %s via value: %s " % (element.text, selector_by, selector_value))
             except NoSuchElementException as e:
                 self.logger.error("NoSuchElementException: %s" % e)
@@ -88,8 +88,8 @@ class Basepage(object):
         elif selector_by == "x" or selector_by == 'xpath':
             try:
                 element = self.driver.find_element_by_xpath(selector_value)
-                self.logger.info("Had find the element \' %s \' successful "
-                            "by %s via value: %s " % (element.text, selector_by, selector_value))
+                self.logger.info("Had find the element {} successful "
+                            "by {} via value: {} ".format(element.text, selector_by, selector_value))
             except NoSuchElementException as e:
                 self.logger.error("NoSuchElementException: %s" % e)
                 self.get_windows_img()
@@ -106,7 +106,7 @@ class Basepage(object):
         element.clear()
         try:
             element.send_keys(text)
-            self.logger.info("Had type \' %s \' in inputBox" % text)
+            self.logger.info("Had type  %s  in inputBox" % text)
         except NameError as e:
             self.logger.error("Failed to type in input box with %s" % e)
             self.get_windows_img()

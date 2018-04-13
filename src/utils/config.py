@@ -14,6 +14,7 @@ CONFIG_FILE = os.path.join(BASE_PATH, 'config', 'config.yml')
 LOG_PATH = os.path.join(BASE_PATH, 'log')
 PIR_PATH = os.path.join(BASE_PATH,'report','screenpicture\\')
 DATA_PATH = os.path.join(BASE_PATH,'data','baidu.xlsx')
+DRIVER_PATH = os.path.join(BASE_PATH,'drivers')
 
 class Config:
     def __init__(self,config=CONFIG_FILE):
