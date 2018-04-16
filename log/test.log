@@ -405,3 +405,13 @@
 2018-04-13 13:06:57,324 - SearchPage - INFO - Had find the element    successful by id via value: su 
 2018-04-13 13:06:57,863 - SearchPage - DEBUG - 点击"立即登录 "按钮.
 2018-04-13 13:06:58,828 - SearchPage - INFO - Had take screenshot and save to folder : /screenshots
+2018-04-13 13:56:51,980 - LoginPage - DEBUG - 找到"登录用户名"输入input.
+2018-04-13 13:56:52,511 - LoginPage - INFO - Had find the element    successful by id via value: login_dialog_input_user_mail 
+2018-04-13 13:56:52,668 - LoginPage - INFO - Had type  root  in inputBox
+2018-04-13 13:56:52,671 - LoginPage - DEBUG - 找到"密码"输入input.
+2018-04-13 13:56:52,693 - LoginPage - INFO - Had find the element    successful by id via value: login_dialog_input_user_pwd 
+2018-04-13 13:56:52,877 - LoginPage - INFO - Had type  123  in inputBox
+2018-04-13 13:56:52,884 - LoginPage - DEBUG - 点击"立即登录 "按钮.
+2018-04-13 13:56:52,926 - LoginPage - INFO - Had find the element  立即登录  successful by id via value: login_dialog_login_button 
+2018-04-13 13:56:53,322 - LoginPage - INFO - The element ' 立即登录 ' was clicked.
+2018-04-13 13:56:53,918 - LoginPage - INFO - Had take screenshot and save to folder : /screenshots

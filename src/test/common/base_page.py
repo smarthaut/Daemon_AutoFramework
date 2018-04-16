@@ -8,7 +8,6 @@
 import time
 from selenium.common.exceptions import NoSuchElementException
 from src.utils.log import Logger
-import os
 
 class Basepage(object):
     url = None
@@ -18,6 +17,15 @@ class Basepage(object):
     def __init__(self,driver):
         self.driver = driver
         self.classname = self.__class__.__name__
+
+    #浏览器最大化
+    def max_browser(self):
+        self.driver.maximize_window()
+
+    #设置浏览器的宽,高
+    def set_width(self,width,height):
+        self.driver.set_window_size(width,height)
+
     #关闭浏览器
     def quit_browser(self):
         self.driver.quit()
@@ -55,7 +63,7 @@ class Basepage(object):
             self.logger.info("Had take screenshot and save to folder : /screenshots")
             print(screen_name)
         except NameError as e:
-            self.logger.error("Failed to take screenpicture! %s" % e)
+            self.logger.error("Failed to take screenpicture! {}".format(e))
             self.get_windows_img()
 
     # 定位元素方法
@@ -70,10 +78,10 @@ class Basepage(object):
         if selector_by == "i" or selector_by == 'id':
             try:
                 element = self.driver.find_element_by_id(selector_value)
-                self.logger.info("Had find the element  %s  successful "
-                            "by %s via value: %s " % (element.text, selector_by, selector_value))
+                self.logger.info("Had find the element {}successful "
+                            "by {} via value: {} ".format(element.text, selector_by, selector_value))
             except NoSuchElementException as e:
-                self.logger.error("NoSuchElementException: %s" % e)
+                self.logger.error("NoSuchElementException: {}".format(e))
                 self.get_windows_img()  # take screenshot
         elif selector_by == "n" or selector_by == 'name':
             element = self.driver.find_element_by_name(selector_value)
@@ -91,7 +99,7 @@ class Basepage(object):
                 self.logger.info("Had find the element {} successful "
                             "by {} via value: {} ".format(element.text, selector_by, selector_value))
             except NoSuchElementException as e:
-                self.logger.error("NoSuchElementException: %s" % e)
+                self.logger.error("NoSuchElementException: {}".format(e))
                 self.get_windows_img()
         elif selector_by == "s" or selector_by == 'css_selector':
             element = self.driver.find_element_by_css_selector(selector_value)
@@ -102,55 +110,54 @@ class Basepage(object):
 
     # 文本框输入
     def set_value(self,element,text):
-        self.logger = Logger(loggername=self.__class__.__name__).get_logger()
+        self.logger = Logger(loggername=self.classname).get_logger()
         element.clear()
         try:
             element.send_keys(text)
-            self.logger.info("Had type  %s  in inputBox" % text)
+            self.logger.info("Had type {} in inputBox".format(text))
         except NameError as e:
-            self.logger.error("Failed to type in input box with %s" % e)
+            self.logger.error("Failed to type in input box with {}".format(e))
             self.get_windows_img()
+
     # 文本框清除
     def clear(self,selector):
-        self.logger = Logger(loggername=self.__class__.__name__).get_logger()
+        self.logger = Logger(loggername=self.classname).get_logger()
         el = self.find_element(selector)
         try:
             el.clear()
             self.logger.info("Clear text in input box before typing.")
         except NameError as e:
-            self.logger.error("Failed to clear in input box with %s" % e)
+            self.logger.error("Failed to clear in input box with {}".format(e))
             self.get_windows_img()
+
     # 点击元素
     def click_sel(self, selector):
-        self.logger = Logger(loggername=self.__class__.__name__).get_logger()
+        self.logger = Logger(loggername=self.classname).get_logger()
         el = self.find_element(selector)
         try:
-            self.logger.info("The element \' %s \' was clicked." % el.text)
+            self.logger.info("The element {} was clicked." .format(el.text))
             el.click()
         except NameError as e:
-            self.logger.error("Failed to click the element with %s" % e)
-    def click_ele(self,element):
-        self.logger = Logger(loggername=self.__class__.__name__).get_logger()
-        el = element
-        try:
-            self.logger.info("The element \' %s \' was clicked." % el.text)
-            el.click()
-        except NameError as e:
-            self.logger.error("Failed to click the element with %s" % e)
+            self.logger.error("Failed to click the element with {}".format(e))
 
-    # 或者网页标题
+    # 获取网页标题
     def get_page_title(self):
-        self.logger = Logger(loggername=self.__class__.__name__).get_logger()
-        self.logger.info("Current page title is %s" % self.driver.title)
+        self.logger = Logger(loggername=self.classname).get_logger()
+        self.logger.info("Current page title is {}".format(self.driver.title))
         return self.driver.title
 
-
-    @staticmethod
+    #sleep
     def sleep(self,seconds):
-        self.logger = Logger(loggername=self.__class__.__name__).get_logger()
+        self.logger = Logger(loggername=self.classname).get_logger()
         time.sleep(seconds)
-        self.logger.info("Sleep for %d seconds" % seconds)
+        self.logger.info("Sleep for {} seconds" .format(seconds))
 
+    #
     def switch_alert(self):
         alert = self.driver.switch_to_alert()
         alert.accept()
+
+    #frame切换
+    def switch_frame(self,elem):
+        pass
+

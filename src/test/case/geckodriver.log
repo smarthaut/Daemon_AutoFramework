@@ -100,3 +100,32 @@ JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Python
 JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Python%20selenium&json=1&p=3&sid=1461_21117_18559_20930&req=2&csor=15&pwd=Python%20seleniu&cb=jQuery110205569721155852609_1523524209801&_=1523524209817, line 1: TypeError: jQuery110205569721155852609_1523524209801 is not a function
 1523524210689	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
 1523524212783	Marionette	INFO	New connections will no longer be accepted
+1523598988211	geckodriver	INFO	geckodriver 0.18.0
+1523598988237	geckodriver	INFO	Listening on 127.0.0.1:62407
+1523598989886	geckodriver::marionette	INFO	Starting browser D:\firefox55\firefox.exe with args ["-marionette"]
+1523598992757	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///D:/firefox55/omni.ja!/components/addonManager.js:65
+1523598995819	Marionette	INFO	Enabled via --marionette
+[GPU 18416] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1523599010172	Marionette	INFO	Listening on port 62414
+[Child 9580] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1523599010486	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523599010556	Marionette	INFO	Listening on port 62414
+1523599010567	Marionette	DEBUG	loaded listener.js
+1523599011355	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1523599011448	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1523599011448	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://10.50.4.115:8080/paasadv/js/common.js, line 281: unreachable code after return statement
+1523599011939	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://10.50.4.115:8080/paasadv/"
+1523599011966	Marionette	DEBUG	Received DOM event "pageshow" for "http://10.50.4.115:8080/paasadv/"
+1523599013781	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1523599031924	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+JavaScript warning: http://10.50.4.115:8080/paasadv/content/su_cai/aquadatacenter.js, line 861: unreachable code after return statement
+JavaScript warning: http://10.50.4.115:8080/paasadv/content/su_cai/aquadatacenter.js, line 861: unreachable code after return statement
+JavaScript warning: http://10.50.4.115:8080/paasadv/content/su_cai/aquadatacenter.js, line 861: unreachable code after return statement
+[GPU 18416] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 18416] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/netmonitor/src/connector/firefox-connector.js, line 91: TypeError: this.tabTarget is null
+[Child 14460] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

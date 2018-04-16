@@ -15,7 +15,7 @@ from src.utils.config import Config
 class LoginTest(unittest.TestCase):
 
     def setUp(self):
-        self.driver = Browser(timeout=60)
+        self.driver = Browser().get_browserdriver()
 
     def tearDown(self):
         self.driver.quit()

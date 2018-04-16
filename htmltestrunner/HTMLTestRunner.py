@@ -78,6 +78,9 @@ __version__ = "0.8.2.2"
 
 """
 Change History
+Version 0.8.2.2-huanghe
+*添加截图展示功能
+
 Version 0.8.2.1 -Findyou
 * 改为支持python3
 
