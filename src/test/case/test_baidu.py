@@ -26,7 +26,8 @@ class SearchTest(unittest.TestCase):
         self.search_page.visit()
 
     def tearDown(self):
-        self.search_page.quit_browser()
+        pass
+        #self.search_page.quit_browser()
 
     def test_search(self):
         self.search_page.set_value(element=self.search_page.rec_search_input(), text=dates[1]['search'])
