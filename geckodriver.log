@@ -2385,3 +2385,95 @@ saveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:198:9
 Unable to read VR Path Registry from C:\Users\he.huang\AppData\Local\openvr\openvrpaths.vrpath
 JavaScript warning: http://10.50.4.115:8080/paasadv/js/common.js, line 281: unreachable code after return statement
 [Parent 9412, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1524729154884	geckodriver	INFO	geckodriver 0.18.0
+1524729154968	geckodriver	INFO	Listening on 127.0.0.1:57076
+1524729157086	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1524729161370	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\he.huang\AppData\Local\openvr\openvrpaths.vrpath
+[Child 3404, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1524729181286	Marionette	INFO	Listening on port 57084
+1524729182354	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\he.huang\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://10.50.4.115:8080/paasadv/js/common.js, line 281: unreachable code after return statement
+Unable to read VR Path Registry from C:\Users\he.huang\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 9428, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1524730848612	geckodriver	INFO	geckodriver 0.18.0
+1524730848630	geckodriver	INFO	Listening on 127.0.0.1:57278
+1524730850434	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1524730852422	Marionette	INFO	Enabled via --marionette
+1524730866310	Marionette	INFO	Listening on port 57284
+Unable to read VR Path Registry from C:\Users\he.huang\AppData\Local\openvr\openvrpaths.vrpath
+[Child 5072, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1524730867344	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\he.huang\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://10.50.4.115:8080/paasadv/js/common.js, line 281: unreachable code after return statement
+Unable to read VR Path Registry from C:\Users\he.huang\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 9460, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GFX1[-]: Receive IPGFX1-]C close with reason=Abnorma: Receive IPC close lShutdownwith reason
+=AbnormalShutdown
+1524731475356	geckodriver	INFO	geckodriver 0.18.0
+1524731475366	geckodriver	INFO	Listening on 127.0.0.1:57432
+1524731477240	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1524731479424	Marionette	INFO	Enabled via --marionette
+[GFX1-]: Failed to OpenSharedResource for SyncObjectD3D11: 0x80070057
+1524731483262	Marionette	INFO	Listening on port 57438
+1524731483630	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\he.huang\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://10.50.4.115:8080/paasadv/js/common.js, line 281: unreachable code after return statement
+1524731490782	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279 < GeckoDriver.prototype.quit()@driver.js:3270 < despatch()@server.js:557 < execute()@server.js:531 < onPacket/<()@server.js:506 < onPacket()@server.js:505 < _onJSONObjectReady/<()@transport.js:500
+Unable to read VR Path Registry from C:\Users\he.huang\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 7684, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\he.huang\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7644, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7644, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1524732580246	geckodriver	INFO	geckodriver 0.18.0
+1524732580263	geckodriver	INFO	Listening on 127.0.0.1:57608
+1524732582003	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1524732583504	Marionette	INFO	Enabled via --marionette
+1524732612562	Marionette	INFO	Listening on port 57614
+Unable to read VR Path Registry from C:\Users\he.huang\AppData\Local\openvr\openvrpaths.vrpath
+[Child 11224, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11224, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1524732613500	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\he.huang\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://10.50.4.115:8080/paasadv/js/common.js, line 281: unreachable code after return statement
+JavaScript error: http://10.50.4.115:8080/paasadv/content/guang_gao_pai_qi/advSchedule.js, line 3: TypeError: document.getElementById(...) is null
+JavaScript warning: http://10.50.4.115:8080/paasadv/content/su_cai/aquadatacenter.js, line 861: unreachable code after return statement
+1524732845304	geckodriver	INFO	geckodriver 0.18.0
+1524732845315	geckodriver	INFO	Listening on 127.0.0.1:57719
+1524732847153	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1524732848986	Marionette	INFO	Enabled via --marionette
+[GFX1-]: Failed to OpenSharedResource for SyncObjectD3D11: 0x80070057
+Unable to read VR Path Registry from C:\Users\he.huang\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4052, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4052, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+console.error: 
+  Could not write session state file 
+  Message: Error: _initWorker called too early! Please read the session file from disk first.
+  Stack:
+    _initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:344:15
+_initWorker@resource:///modules/sessionstore/SessionFile.jsm:337:12
+_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:361:11
+write@resource:///modules/sessionstore/SessionFile.jsm:401:19
+write@resource:///modules/sessionstore/SessionFile.jsm:73:12
+_writeState@resource:///modules/sessionstore/SessionSaver.jsm:363:12
+_saveState@resource:///modules/sessionstore/SessionSaver.jsm:301:12
+_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:347:5
+saveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:198:9
+
+  _initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:344:15
+_initWorker@resource:///modules/sessionstore/SessionFile.jsm:337:12
+_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:361:11
+write@resource:///modules/sessionstore/SessionFile.jsm:401:19
+write@resource:///modules/sessionstore/SessionFile.jsm:73:12
+_writeState@resource:///modules/sessionstore/SessionSaver.jsm:363:12
+_saveState@resource:///modules/sessionstore/SessionSaver.jsm:301:12
+_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:347:5
+saveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:198:9
+
+1524732859364	Marionette	INFO	Listening on port 57725
+1524732861932	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\he.huang\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://10.50.4.115:8080/paasadv/js/common.js, line 281: unreachable code after return statement
+JavaScript error: http://10.50.4.115:8080/paasadv/content/guang_gao_pai_qi/advSchedule.js, line 3: TypeError: document.getElementById(...) is null
+JavaScript warning: http://10.50.4.115:8080/paasadv/content/su_cai/aquadatacenter.js, line 861: unreachable code after return statement

@@ -430,15 +430,34 @@ table       { font-size: 30px; }
 """ # variables: (tid, Class, style, desc, status)
 
     # 通过 的样式，加标签效果  -Findyou
-    REPORT_TEST_NO_OUTPUT_TMPL = r"""
+    REPORT_TEST_NO_OUTPUT_TMPL=r"""
+    <tr id='%(tid)s' class='%(Class)s'>
+    <td class='%(style)s'><div class='testcase'>%(desc)s</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_%(tid)s' type="button"  class="btn btn-success btn-xs collapsed" data-toggle="collapse" data-target='#div_%(tid)s'>%(status)s</button>
+    <div id='div_%(tid)s' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_%(tid)s' type="button"  class="btn btn-success btn-xs" data-toggle="collapse" data-target='#div_%(tid)s'>%(status)s</button>
+    <div id='div_%(tid)s' class="collapse in">
+    <pre>
+    %(script)s
+    </pre>
+    </div>
+    </td>
+</tr>
+    """
+    REPORT_TEST_NO_OUTPUT_TMPL01 = r"""
 <tr id='%(tid)s' class='%(Class)s'>
     <td class='%(style)s'><div class='testcase'>%(desc)s</div></td>
     <td colspan='5' align='center'><span class="label label-success success">%(status)s</span></td>
+    
 </tr>
 """ # variables: (tid, Class, style, desc, status)
 
     REPORT_TEST_OUTPUT_TMPL = r"""
-%(id)s: %(output)s
+%(id)s: %(output)s测试通过
 <img %(hidde)s src="%(image)s" alt="picture_shot" height="200" width="400"></img>
 <a  %(hidde)s  href="%(image)s">picture_shot</a>
 """ # variables: (id, output)
@@ -716,7 +735,8 @@ class HTMLTestRunner(Template_mixin):
         # e.g. 'pt1.1', 'ft1.1', etc
         unum = -1
         imguo = None
-        has_output = bool(o or e)
+        #has_output = bool(o or e)
+        has_output = bool(e)
         #当有print输入或者有异常抛出时都采用REPORT_TEST_WITH_OUTPUT_TMPL
         #has_output = bool(o and e)
         # ID修改点为下划线,支持Bootstrap折叠展开特效 - Findyou
