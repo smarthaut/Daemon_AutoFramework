@@ -7,6 +7,7 @@
 # @Software: PyCharm
 from src.utils.log import Logger
 from src.test.common.base_page import Basepage
+from src.test.suit.aquapaasADV.main_page import MainPage
 
 class LoginPage(Basepage):
 
@@ -39,4 +40,7 @@ class LoginPage(Basepage):
         self.logger = Logger(loggername=self.__class__.__name__).get_logger()
         self.logger.debug(u'点击"立即登录 "按钮.')
         self.click_sel(selector='id=>login_dialog_login_button')
+
+    def get_main_page(self):
+        return MainPage(self.driver)
 

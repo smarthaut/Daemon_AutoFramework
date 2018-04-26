@@ -33,7 +33,6 @@ class Email:
         server = smtplib.SMTP(self.server,25)
         server.set_debuglevel(1)
         server.login(self.sender,self.password)
-        print(self.msg)
         server.sendmail(self.sender,[self.receiver],self.msg.as_string())
         server.quit()
 
@@ -48,8 +47,8 @@ class Email:
             self.msg.attach(mime)
 
     def set_content(self,msg):
-        self.msg['From'] = self._format_addr('Python爱好者<{}>'.format(self.sender))
-        self.msg['To'] = self._format_addr('管理员<{}>'.format(self.receiver))
+        self.msg['From'] = self._format_addr('发件人<{}>'.format(self.sender))
+        self.msg['To'] = self._format_addr('收件人<{}>'.format(self.receiver))
         self.msg['Subject'] = Header(self.subject, 'utf-8').encode()
         self.msg.attach(MIMEText(msg,'plain','utf-8'))
 

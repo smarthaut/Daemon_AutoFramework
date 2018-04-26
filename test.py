@@ -55,4 +55,6 @@ for date in dates:
     print(date)
 
 print(dates[1]['search'])'''
-TYPES = {'firefox': webdriver.Firefox, 'chrome': webdriver.Chrome, 'ie': webdriver.Ie, 'phantomjs': webdriver.PhantomJS}
+#TYPES = {'firefox': webdriver.Firefox, 'chrome': webdriver.Chrome, 'ie': webdriver.Ie, 'phantomjs': webdriver.PhantomJS}
+a = 'Fdaer'
+print(a[::-1])

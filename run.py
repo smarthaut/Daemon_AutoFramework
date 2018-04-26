@@ -11,7 +11,7 @@ import unittest
 from htmltestrunner.HTMLTestRunner import HTMLTestRunner
 
 test_dir = './src/test/case'
-discover = unittest.defaultTestLoader.discover(test_dir,pattern='test_baidu.py')
+discover = unittest.defaultTestLoader.discover(test_dir,pattern='test_ad_*.py')
 
 if __name__ == '__main__':
     now = time.strftime("%Y-%m-%d %H_%M_%S")
